@@ -1,10 +1,10 @@
 package ru.netology;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
 @Data
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class RegistrationInfo {
     private final String login;
     private final String password;
