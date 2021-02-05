@@ -42,7 +42,6 @@ public class DataGenerator {
         Faker faker = new Faker(new Locale("en"));
         String login = faker.name().firstName();
         String password = faker.internet().password();
-        setUpAll(new RegistrationInfo(login, password, ""));
         return new RegistrationInfo(login, password, "");
     }
 
